@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarships</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+        }  
+        .header {
+            background-color: yellow;
+            padding: 10px;
+            text-align: center;
+        }
+        .header table {
+            width: 90%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        .header th {
+            padding: 10px;
+            border: 2px solid black;
+        }
+        .header th a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .section {
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .section1 {
+            background-image: url('https://wallpapercave.com/wp/wp11015413.jpg');
+        }
+        .section2 {
+            background-image: url('https://wallpapercave.com/wp/wp4072371.jpg');
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.5);
+            margin: 25px;
+            padding: 25px;
+            border-radius: 30px;
+            border: 1px solid black;
+            color: whitesmoke;
+            width: 90%;
+            overflow: auto;
+            transition: transform 0.5s ease;
+            text-align: center;
+        }
+        .container:hover {
+            transform: scale(1.05);
+        }
+        img {
+            margin: 20px;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 1200px) {
+            .header table, .container {
+                width: 95%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header th {
+                padding: 8px;
+            }
+            .container {
+                width: 100%;
+                padding: 20px;
+                margin: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header th {
+                padding: 5px;
+            }
+            .container {
+                width: 100%;
+                padding: 15px;
+                margin: 10px;
+                border-radius: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>
+            <table border="2" width="90%" style="background-color: yellow;">
+                <tr>
+                    <th><a href="index.html">Home Page</a></th>
+                    <th><a href="AM.html">Cost Considerations</a></th>
+                    <th><a href="CC.html">Mail Us</a></th>
+                    <th><a href="UAPP.html">University As Per Program</a></th>
+                    <th><a href="MU.html">Scholarships</a></th>
+                </tr>
+            </table>
+        </h2>
+    </div>
+    <hr>
+
+    <div class="section section1">
+        <div class="container">
+            <h1><u>Scholarships for Top International Universities</u></h1>
+            <h2><font color="yellow"><u>1: Merit-Based Scholarships:</u></font> Awarded based on academic achievements, talents, or other skills.</h2>
+            <h2><font color="yellow"><u>2: Need-Based Scholarships:</u></font> Given to students who demonstrate financial need.</h2>
+            <h2><font color="yellow"><u>3: Sports Scholarships:</u></font> For students who excel in sports and contribute to the university's athletic programs.</h2>
+            <h2><font color="yellow"><u>4: Research Scholarships:</u></font> Targeted at students who show potential in research or have research proposals.</h2>
+            <h2><font color="yellow"><u>5: International Scholarships:</u></font> Designed for students from outside the host country, often focusing on cultural exchange.</h2>
+        </div>
+    </div>
+
+    <div class="section section2">
+        <div class="container">
+            <h1><u>Notable Universities and Their Scholarships</u></h1>
+            <h2><font color="yellow"><u>1: Harvard University:</u></font> Provides full-tuition scholarships to students from families earning less than $65,000 a year.</h2>
+            <h2><font color="yellow"><u>2: University of Oxford:</u></font> Covers full tuition and provides a stipend for living expenses for international students.</h2>
+            <h2><font color="yellow"><u>3: Stanford University:</u></font> Provides need-based financial aid that can cover up to 100% of tuition.</h2>
+            <h2><font color="yellow"><u>4: ETH Zurich:</u></font> Offers a scholarship covering living and study costs, along with a mentoring program.</h2>
+            <h2><font color="yellow"><u>5: University of Cambridge:</u></font> Fully funds graduate students from any country, covering all costs.</h2>
+        </div>
+    </div>
+
+</body>
+</html>
